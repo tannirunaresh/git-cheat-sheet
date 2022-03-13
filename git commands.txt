@@ -1,0 +1,62 @@
+git commands 
+
+mkdir (folder name)
+
+cd (folder name)
+
+git init .
+
+git config --global user.name "git hub user name"
+
+git config -- global user.email "git hub email"
+
+git config -- list ( you can see you username & user email)
+
+git config -- global --edit ( edit username and useremail in vi editor)
+
+git clone  git url ( mainly used before starting for new project)
+
+git add filename (for indvidual files)
+
+git add . (add all files to stagging area)
+
+git status ( show all files in stagging and untracked)
+
+git commit -m "commit id"
+
+git commit -am "commit" for tracking files
+
+git remote add origin url ( add git repo to local so you fetch and push you repo to git hub)
+you can many github repos but name should be different main is origin and other like xyz
+
+git remote set url (it will be current one)
+
+git remote -v (to check all the fetch and push url of git hub account)
+
+git diff (show what channges in the code or file)
+
+git diff --stagged (show the chnages in the stagging area)
+
+git log
+
+git log --online 
+
+git log author devname (it will show commits of dev)
+
+git branch ( shows all branches)
+
+git branch xxxxx (create a new branch)
+
+git checkout branchname (change from master to branch)
+
+git checkkout -b branchname (create and switch to barnch)
+
+git branch -d branchname (delete a branch whether merged or not)
+
+git branch -D <branch> (delete a merged branch)
+
+git tag <tag-name> (add a tag to current commit)
+
+
+              
+  
