@@ -57,6 +57,8 @@ git branch -D <branch> (delete a merged branch)
 
 git tag <tag-name> (add a tag to current commit)
 
+git push -u origin master 
 
+git push -set-upstream origin master (if error for pushing code in git hub)
               
   
