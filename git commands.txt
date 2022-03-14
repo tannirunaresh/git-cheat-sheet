@@ -37,6 +37,8 @@ git diff (show what channges in the code or file)
 
 git diff --stagged (show the chnages in the stagging area)
 
+git diff commit1_ID commit2_ID
+
 git log
 
 git log --online 
@@ -60,5 +62,9 @@ git tag <tag-name> (add a tag to current commit)
 git push -u origin master 
 
 git push -set-upstream origin master (if error for pushing code in git hub)
+
+undone things
+
+
               
   
