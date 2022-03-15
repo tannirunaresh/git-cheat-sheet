@@ -65,6 +65,6 @@ git push -set-upstream origin master (if error for pushing code in git hub)
 
 undone things
 
-
+git rm filename
               
   
